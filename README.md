@@ -1,7 +1,7 @@
 #NLW4
 ===
 
-The *Next Level Week* is an event, made by [RocketSeat](https://rocketseat.com.br/) and the objective is to help people learn *ReactJS*, *NextJS*, *Typescript* and various other things.
+The *Next Level Week* is a yearly week-event, made by [RocketSeat](https://rocketseat.com.br/) and the objective is to help people learn *ReactJS*, *NextJS*, *Typescript* and various other things.
 
 The *Next Level Week 4* is the fourth edition of the event, and it goes from **02/22/2021** until **02/28/2021**. The objective of this edition is to build the MoveIt, a complete React application from scratch using good practices, for more information about the *Next Level Week 4* please visit [NLW4](https://nextlevelweek.com/inscricao/4)
 
@@ -9,7 +9,7 @@ The *Next Level Week 4* is the fourth edition of the event, and it goes from **0
 About the project
 ---
 
-The **MoveIt** will be an application to help on keeping focus and prevent healt issues.
+The **MoveIt** will be an application to help on keeping focus and prevent health issues.
 
 What the app will do:
 
