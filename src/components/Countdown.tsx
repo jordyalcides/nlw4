@@ -8,7 +8,7 @@ export function Countdown() {
     const { startNewChallenge } = useContext(ChallengesContext);
 
 
-    const [time, setTime] = useState(0 * 60 + 3);
+    const [time, setTime] = useState(25 * 60 + 0);
     const [isActive, setIsActive] = useState(false);
     const [hasFinished, setHasFinished] = useState(false);
 
