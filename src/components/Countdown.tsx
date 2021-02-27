@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { CountdownContext } from '../contexts/CountdownContext';
+import { CountdownContext } from '../contexts/CountdownContext'
 import styles from '../styles/components/Countdown.module.css'
 
 export function Countdown() {
@@ -9,7 +9,9 @@ export function Countdown() {
 		isActive,
 		hasFinished,
 		startCountdown,
-		resetCountdown
+		resetCountdown,
+		upMinute,
+		downMinute
 	} = useContext(CountdownContext);
 
 	const [minuteLeft, minuteRight] = String(minutes).padStart(2, '0').split('');
@@ -27,6 +29,20 @@ export function Countdown() {
 				<div>
 					<span>{secondLeft}</span>
 					<span>{secondRight}</span>
+				</div>
+				<div className={styles.minuteButtonsContainer}>
+					<button
+						type="button"
+						className={styles.upMinuteButton}
+						onClick={upMinute}>
+						<img src="/icons/sort-up-solid.svg" alt="Aumentar contador" />
+					</button>
+					<button
+						type="button"
+						className={styles.downMinuteButton}
+						onClick={downMinute}>
+						<img src="/icons/sort-down-solid.svg" alt="Diminuir contador" />
+					</button>
 				</div>
 			</div>
 

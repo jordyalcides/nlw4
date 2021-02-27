@@ -70,3 +70,48 @@
     color: var(--text);
     cursor: not-allowed;
 }
+
+.minuteButtonsContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 11rem;
+    margin-left: 2rem;
+}
+
+.upMinuteButton {
+    background-color: inherit;
+    border: 0;
+    border-radius: 5px;
+    margin: 0 0.5rem;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+.upMinuteButton:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.upMinuteButton img {
+    width: auto;
+    height: 75px;
+}
+
+.downMinuteButton {
+    background-color: inherit;
+    border: 0;
+    border-radius: 5px;
+    margin: 0 0.5rem;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+.downMinuteButton:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.downMinuteButton img {
+    width: auto;
+    height: 75px;
+}
